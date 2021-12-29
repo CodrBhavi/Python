@@ -1,15 +1,14 @@
-# Swapping Numbers Program
-# Taking input from user
-a = eval(input("Enter a Number for a: "))
-b = eval(input("Enter a Number for b: "))
-# Printing numbers when they are unswapped
-print("Before Swapping.......")
-print("a is ",a)
-print("b is ",b)
-# Swap Logic
-a,b = b,a
-# Printing numbers when they are swapped
-print("After Swapping........")
-print("a is ",a)
-print("b is ",b)
-# End of the Program!!
+# Swapping Numbers Program in Python
+# Taking Input from user
+num1 = eval(input("Enter a Number for num1: "))
+num2 = eval(input("Enter a Number for num2: "))
+print("Before Swapping.........")
+print("num1 is ",num1)
+print("num2 is ",num2)
+# Swapping Logic
+num1,num2 = num2,num1
+# After Swapping Numbers
+print("After Swapping.........")
+print("num1 is ",num1)
+print("num2 is ",num2)
+# End Program
