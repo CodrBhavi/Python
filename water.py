@@ -1,3 +1,5 @@
+''' Python Project: 1
+    Drinking Water Remainder App '''
 import time
 from plyer import notification
 
@@ -7,4 +9,4 @@ if __name__ == "__main__":
     		message = "8 glasses of water a day, keeps a Doctor Away!!",
     		app_icon = "C:\Python\icon.ico",
     		timeout = 10
-			)
+			) 
